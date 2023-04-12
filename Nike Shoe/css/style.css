@@ -1,0 +1,10 @@
+:root {
+    --background-body: #333;
+}
+/* Styles the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-body);
+}
