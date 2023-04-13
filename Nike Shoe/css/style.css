@@ -14,6 +14,9 @@
     --header-after-color:  rgb(0, 0, 0, 0.1);
     --button-hover-background:  #6e9623;
     --button-background:  #a3be52;
+    --color-h1: rgb(37, 228, 212);
+    --color-h2: rgb(37, 228, 212);
+    --nav-link-color: rgb(37, 228, 212);
 }
 /* Styles the body */
 body {
@@ -66,8 +69,10 @@ nav ul li {
 nav ul a {
     font-size: 0.8em;
     text-transform: uppercase;
+    color: var(--nav-link-color)
 
 }
+
 /* Styles the form tag */
 nav form {
     margin-right: 2em;
@@ -164,11 +169,13 @@ header::after {
 .body h1 {
     font-size: 3.5em;
     margin: 0.5em 0;
+    color: var(--color-h1);
 }
 /* Styles h4 */
 .body h4 {
     font-size: 1.5em;
     margin: 0.5em 0;
+    color: var(--color-h2);
 }
 /* Styles the paragraph */
 .body p {
