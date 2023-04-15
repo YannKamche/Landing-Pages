@@ -142,7 +142,7 @@ header::after {
     content: 'Nike';
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 80%;
     transform: translate(-50%, -50%);
     color: var(--header-after-color);
     font-size: 17em;
